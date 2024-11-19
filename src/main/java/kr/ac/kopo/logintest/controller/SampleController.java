@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/sample/")
 public class SampleController {
     @GetMapping("/all")
-    public void exAll() {
-        log.info("★ exAll() 메소드 호출됨");
-    }
+    public void exAll() { log.info("★ exAll() 메소드 호출됨"); }
 
     @GetMapping("/member")
     public void exMember() {
